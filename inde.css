@@ -67,6 +67,7 @@ p{
     font-weight: 100;
     font-size: 5;
 }
+
 .fontstyle{
     font-family: customfont;
 }
@@ -114,8 +115,9 @@ p{
      color:hsl(223, 84%, 68%);
 }
 @media (max-width: 475px) {
+
     #form{
-        width: 100%;
+        width: 80%;
     }
     #inputbox{
         width: 100%;
