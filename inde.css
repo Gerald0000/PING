@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "customfont";
+    src: url("fonts/LibreFranklin-VariableFont_wght.ttf");
+
+
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+        
+}
+#dot{
+    color:hsl(223, 84%, 68%) ;
+}
+#header1{
+    font-size: 35px;
+    margin-top: 0px;
+}
+#header2{
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 5px;
+}
+#header3{
+    font-size: 27px;
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+}
+#image{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 30px;
+    
+}
+#inputbox{
+    padding-left: 13px;
+    border-radius: 50px;
+    border: 2px solid hsl(0, 0%, 59%);
+    outline: none;
+    width: 250px;
+    height: 35px;
+}
+#inputbox::placeholder{
+    opacity: 0.5;
+    padding: 15px;
+
+}
+#sumbitbutton{
+    background-color: hsl(223, 84%, 68%);
+    border-radius: 50px;
+    border: 2px solid hsl(223, 84%, 68%);
+    width: 120px;
+    height: 35px;
+    color: white;
+    box-shadow: 0 4px 10px hsl(223, 84%, 68%);
+}
+#sumbitbutton:hover{
+    background-color: hsl(229, 84%, 68%);
+    border: 1px solid hsl(229, 84%, 68%);
+    box-shadow: 0 4px 10px hsl(223, 84%, 68%);
+}
+#copyright{
+    font-weight: 100;
+    font-size: 5;
+}
+.fontstyle{
+    font-family: customfont;
+}
+.res {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid hsl(223, 84%, 68%);
+    border-radius: 50% ;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+    background:hsl(223, 84%, 68%);
+    color: white;
+}
+#footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+   
+    background: white;
+    color:hsl(223, 84%, 68%);
+}
+
+/* Twitter */
+.fa-twitter {
+    background: white;
+    color:hsl(223, 84%, 68%);
+}
+
+.fa-instagram {
+    background: white;
+     color:hsl(223, 84%, 68%);
+}
+@media (max-width: 475px) {
+    #form{
+        width: 100%;
+    }
+    #inputbox{
+        width: 100%;
+    }
+    #copyright{
+        font-size: 12px;
+    }
+        
+    #sumbitbutton {
+            margin-top: 15px;
+            width:100%;
+            height: 35px;
+        
+            
+        }
+    #image{
+        margin: 75px;
+        width: 100%;
+        height: 100%;
+    }
+        #image {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+  
+      
+  
+       
+
+           .fa {
+               padding: 10px;
+               font-size: 10px;
+              
+           }
+    
+     
+}
